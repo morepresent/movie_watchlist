@@ -145,15 +145,18 @@ div.searchResults {
   justify-content: flex-start;
 }
 
-div.searchResults i {
+div.startExploring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: auto;
-  margin-bottom: 0;
+}
+
+div.startExploring i {
   font-size: 4.5rem;
 }
 
-div.searchResults span {
-  margin: auto;
-  margin-top: 0;
+div.startExploring span {
   font-size: 1.3rem;
 }
 
