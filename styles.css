@@ -275,6 +275,7 @@ div.searchBar.hide {
     /* background-color: red; */
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: start;
   }
   div.movie {
     width: 50%;

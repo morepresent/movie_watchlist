@@ -159,8 +159,10 @@ document.addEventListener("click", (e) => {
       }
     } else {
       searchResultsEl.innerHTML = `
-        <i class="fa-solid fa-film"></i>
-        <span>Start exploring</span>
+        <div class="startExploring">
+          <i class="fa-solid fa-film"></i>
+          <span>Start exploring</span>
+        </div>
       `;
     }
   }
